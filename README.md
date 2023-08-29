@@ -1,8 +1,9 @@
 
 <img width="623" alt="Screenshot 2023-08-29 at 2 05 35 PM" src="https://github.com/alibama/8300/assets/911386/3eb8501a-69c8-4fb1-8009-44d002022f2f">
 
+Challenge accepted...  
 
-IRS 8300 Filing Form Schema 
+This is a repository focused on automating crypto finance disclosures for the IRS given thge schema of the 8300 form [https://www.irs.gov/pub/irs-pdf/f8300.pdf](https://www.irs.gov/pub/irs-pdf/f8300.pdf)
 
 
 
