@@ -1,10 +1,10 @@
 
 <img width="623" alt="Screenshot 2023-08-29 at 2 05 35 PM" src="https://github.com/alibama/8300/assets/911386/3eb8501a-69c8-4fb1-8009-44d002022f2f">
 
-Challenge accepted...  
+Filing taxes should be simpler. 
+
 
 This is a repository focused on automating crypto finance disclosures for the IRS given thge schema of the 8300 form [https://www.irs.gov/pub/irs-pdf/f8300.pdf](https://www.irs.gov/pub/irs-pdf/f8300.pdf)
-
 
 
 * Goal - a sufficiently robust schema to accommodate a majority of transactions.
@@ -25,19 +25,12 @@ Use [https://docs.attest.sh/docs/tutorials/private-data-attestations](https://do
 [https://easscan.org/schema/view/0x34b5dd4d3c05ab7cf6268e02df8927c767a0b9fcc108f8f5ee224e3f54b788a1](https://easscan.org/schema/view/0x34b5dd4d3c05ab7cf6268e02df8927c767a0b9fcc108f8f5ee224e3f54b788a1) 
 
 string serviceProvider,(req 
-
 string billedTo,(req)
-
 uint24 invoiceNumber, (opt)
-
 string serviceDescription,(opt)
-
 string amountDue,(req)
-
 address paymentAddress,(req)
-
 string issuedDate,(req)
-
 string dueDate(opt)
 
 **Passport attestation reference:**
@@ -45,7 +38,6 @@ string dueDate(opt)
 [https://easscan.org/schema/view/0xf4ff1791c06f4830fcb5f71fcbaa26cfee5c21a7f3114a28ea3d835ae22b8a85](https://easscan.org/schema/view/0xf4ff1791c06f4830fcb5f71fcbaa26cfee5c21a7f3114a28ea3d835ae22b8a85)
 
 bytes32 passportHash,
-
 uint64 expirationDate
 
 **Digital Notary attestation reference**: zk hash of doc?  
@@ -53,9 +45,7 @@ uint64 expirationDate
 [https://easscan.org/schema/view/0xf5e3c5dd9ed54b59bdacceb0def073061e680939f7cff07d9521dc3e87336111](https://easscan.org/schema/view/0xf5e3c5dd9ed54b59bdacceb0def073061e680939f7cff07d9521dc3e87336111)
 
 bytes32 documentHash,
-
 bytes32 notaryCertificate,
-
 uint64 notarizationTime
 
 ***Passed KYC attestation reference:**
